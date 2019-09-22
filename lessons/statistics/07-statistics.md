@@ -86,14 +86,20 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+-A Prob identical twin and twin brother = 1/300 * 1/2
+-B Prob fraternal twin and twin brother = 1/125 * 1/4
+-Prob identical twin given that twin brother = prob that he was an identical twin:
+
+Prob identical twin and twin brother/ prob twin brother = A/ A + B = 5/11
 
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Bayesian statistics include beliefs in the models and can update outcomes as beliefs change. You can start with certain odds of an event occuring, then update with new information. Ex: odds of an illness can be updated as you get new symptoms.
+
+Frequentist statistics don't really use probability-- they only assign probability to repeatable events like flipping coins. Rather, they use hypotheses/null hypotheses to test ideas. The main difference between the two is the use of probability and the influence of subjectivity.
 
 ---
 
